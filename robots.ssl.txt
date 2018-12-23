@@ -1,0 +1,30 @@
+User-agent: *
+Disallow:/assets/*
+Disallow:/commands/*
+Disallow:/components/*
+Disallow:/config/*
+Disallow:/controllers/*
+Disallow:/mail/*
+Disallow:/messages/*
+Disallow:/models/*
+Disallow:/runtime/*
+Disallow:/tests/*
+Disallow:/tst/*
+Disallow:/uploads/*
+Disallow:/vendor/*
+Disallow:/views/*
+
+Disallow:/admin/*
+Disallow:/site/language
+Disallow:/pay
+Disallow:/site/logout
+Disallow:/site/cp
+Disallow:/site/change-avatar
+Disallow:/site/request-money
+Disallow:/site/get-rates
+Disallow:/site/success-payment
+Disallow:/site/refused-payment
+Disallow:/current-rates
+Disallow:/account
+
+Host: wealthpay.org
