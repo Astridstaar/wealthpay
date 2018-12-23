@@ -1,0 +1,86 @@
+.fire {
+    animation: animation 1s ease-in-out infinite alternate;
+    -moz-animation: animation 1s ease-in-out infinite alternate;
+    -webkit-animation: animation 1s ease-in-out infinite alternate;
+    -o-animation: animation 1s ease-in-out infinite alternate;
+    font-size: 100px;
+}
+
+.burn {
+    animation: animation .65s ease-in-out infinite alternate;
+    -moz-animation: animation .65s ease-in-out infinite alternate;
+    -webkit-animation: animation .65s ease-in-out infinite alternate;
+    -o-animation: animation .65s ease-in-out infinite alternate;
+}
+
+@keyframes animation
+{
+    0% {text-shadow: 0 0 20px #fefcc9,
+    2px -2px 6px #feec85,
+    -4px -4px 8px #ffae34,
+    4px -8px 10px #ec760c,
+    -4px -12px 12px #cd4606,
+    0 -16px 14px #973716,
+    2px -18px 19px #451b0e;}
+    100% {text-shadow: 0 0 4px #fefcc9,
+    2px -2px 6px #fefcc9,
+    -1px -1px 8px #feec85,
+    4px -8px 12px #ffae34,
+    -4px -10px 10px #ec760c,
+    0 -16px 16px #cd4606,
+    2px -18px 16px  #973716;}
+}
+
+@-moz-keyframes animation
+{
+    0% {text-shadow: 0 0 20px #fefcc9,
+    2px -2px 6px #feec85,
+    -4px -4px 8px #ffae34,
+    4px -8px 10px #ec760c,
+    -4px -12px 12px #cd4606,
+    0 -16px 14px #973716,
+    2px -18px 19px #451b0e;}
+    100% {text-shadow: 0 0 4px #fefcc9,
+    2px -2px 6px #fefcc9,
+    -1px -1px 8px #feec85,
+    4px -8px 12px #ffae34,
+    -4px -10px 10px #ec760c,
+    0 -16px 16px #cd4606,
+    2px -18px 16px  #973716;}
+}
+
+@-webkit-keyframes animation
+{
+    0% {text-shadow: 0 0 20px #fefcc9,
+    2px -2px 6px #feec85,
+    -4px -4px 8px #ffae34,
+    4px -8px 10px #ec760c,
+    -4px -12px 12px #cd4606,
+    0 -16px 14px #973716,
+    2px -18px 19px #451b0e;}
+    100% {text-shadow: 0 0 4px #fefcc9,
+    2px -2px 6px #fefcc9,
+    -1px -1px 8px #feec85,
+    4px -8px 12px #ffae34,
+    -4px -10px 10px #ec760c,
+    0 -16px 16px #cd4606,
+    2px -18px 16px  #973716;}
+}
+
+@-o-keyframes animation
+{
+    0% {text-shadow: 0 0 20px #fefcc9,
+    2px -2px 6px #feec85,
+    -4px -4px 8px #ffae34,
+    4px -8px 10px #ec760c,
+    -4px -12px 12px #cd4606,
+    0 -16px 14px #973716,
+    2px -18px 19px #451b0e;}
+    100% {text-shadow: 0 0 4px #fefcc9,
+    2px -2px 6px #fefcc9,
+    -1px -1px 8px #feec85,
+    4px -8px 12px #ffae34,
+    -4px -10px 10px #ec760c,
+    0 -16px 16px #cd4606,
+    2px -18px 16px  #973716;}
+}
